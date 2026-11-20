@@ -1,0 +1,23 @@
+{
+  "name": "game-toolkit",
+  "version": "1.2.0",
+  "description": "个人游戏工具开发与技术研究项目：数据结构分析、资源解析、自动化辅助",
+  "main": "src/index.js",
+  "scripts": {
+    "demo": "node examples/demo-inspect.js",
+    "test:scan": "node src/core/pattern-scan.js",
+    "test:struct": "node src/core/struct-parser.js"
+  },
+  "keywords": [
+    "binary-analysis",
+    "pattern-scan",
+    "struct-parser",
+    "game-toolkit",
+    "reverse-engineering"
+  ],
+  "author": "独立开发者",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  }
+}
